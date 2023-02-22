@@ -19,7 +19,7 @@ public:
             if(nums[mid]==target)
             {
                 ans=mid;
-                e=mid-1;
+                e=mid-1; //if the element is found inorder to get first occurance we search that element again in left side to get least index
             }
             else if(nums[mid]>target)
                     e=mid-1;
@@ -42,7 +42,7 @@ public:
             if(nums[mid]==target)
             {
                 s=mid+1;
-                ans=mid;
+                ans=mid;  //if the element is found inorder to get last occurance we search that element again in right side to get max index
             }
             else if(nums[mid]>target)
                     e=mid-1;
