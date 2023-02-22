@@ -7,3 +7,5 @@
 5.First and Last Occurance of an element in sorted array
 
 6.Search Insert Position
+
+7. Square Root of a number
