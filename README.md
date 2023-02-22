@@ -6,3 +6,5 @@
 3.Search in rotated sorted array
 
 4. Book Allocation
+
+5.First and Last Occurance of an element in sorted array
