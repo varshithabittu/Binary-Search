@@ -29,9 +29,9 @@ public:
         int s=0;
         int e=nums.size()-1;
         int mid= s+(e-s)/2;
-        while(s<=e)
+        while(s<e)
         {
-            if(nums[mid]>nums[0]) //if element is in first set
+            if(nums[mid]>=nums[0]) //if element is in first set
             {
                 s=mid+1; // so update to next set
             }
@@ -41,6 +41,6 @@ public:
             }
             mid= s+(e-s)/2;
         }
-        return mid; //returns the index of first element in not rotated element
+        return s; //returns the index of first element in not rotated element
     }
 };
