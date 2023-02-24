@@ -6,4 +6,6 @@
 5. Square Root of a number
 6. Search insert position
 7. First and Last occurance of a number
-8. Arrange coins		                                          
+8. Arrange coins
+9. Missing Number
+
