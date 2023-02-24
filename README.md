@@ -4,6 +4,6 @@
 3. Search in rotated sorted array
 4. BookAllocation
 5. Square Root of a number
-6. Search in a 
+6. Search insert position
 7. First and Last occurance of a number
 8. Arrange coins		                                          
