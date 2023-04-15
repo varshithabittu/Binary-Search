@@ -8,6 +8,7 @@
 7. First and Last occurance of a number
 8. Arrange coins
 9. Missing Number
-10.Find target indices
+10. Find target indices
+11. Duplicate Element 
 
 
