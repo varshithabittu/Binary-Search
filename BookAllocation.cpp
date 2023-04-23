@@ -12,7 +12,7 @@ public:
         int mid= s+(e-s)/2;
         while(s<=e)
         {
-            if(isPossible(weights,days,weights.size()-1,mid)) //To check whether the solution from search space is possible or not
+            if(isPossible(books,students,books.size()-1,mid)) //To check whether the solution from search space is possible or not
             {
                 ans=mid; // if possible store it
                 e=mid-1; // As we want minimum number of pages we decrease the search space to get less number
@@ -36,7 +36,7 @@ public:
             }
             else
             {
-                dayCount++;
+                studentCount++;
                 if(studentCount>noofStudents || books[i]>mid)
                 {
                     return false;
